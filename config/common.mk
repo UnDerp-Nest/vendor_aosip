@@ -107,6 +107,14 @@ PRODUCT_COPY_FILES += \
 # leave less information available via JDWP.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
+# Include overlays
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/aosip/packages/overlays/Common
+
+# SetupWizard overlay
+PRODUCT_PACKAGES += \
+    SetupWizardOverlay
+
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
