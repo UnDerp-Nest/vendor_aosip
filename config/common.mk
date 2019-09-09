@@ -111,9 +111,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosip/packages/overlays/Common
 
-# SetupWizard overlay
+# PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
-    SetupWizardOverlay
+     PixelSetupWizardOverlay
 
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
