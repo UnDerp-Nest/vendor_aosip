@@ -113,7 +113,8 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
-     PixelSetupWizardOverlay
+    PixelSetupWizardOverlay \
+    PixelSetupWizardAodOverlay
 
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
