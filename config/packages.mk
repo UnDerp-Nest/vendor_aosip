@@ -9,7 +9,8 @@ PRODUCT_PACKAGES += \
     LatinIME \
     messaging \
     ThemePicker \
-    Updater
+    Updater \
+    OmniJaws
 
 # Extra tools in AOSiP
 PRODUCT_PACKAGES += \
