@@ -9,6 +9,7 @@ PRODUCT_PACKAGES += \
     LatinIME \
     messaging \
     ThemePicker \
+    PixelLiveWallpaperPrebuilt \
     Updater \
     OmniJaws
 
