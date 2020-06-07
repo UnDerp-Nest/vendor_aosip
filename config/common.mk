@@ -118,3 +118,6 @@ include vendor/aosip/config/packages.mk
 
 # Versioning
 include vendor/aosip/config/version.mk
+
+# Customization
+include vendor/google-customization/config.mk
