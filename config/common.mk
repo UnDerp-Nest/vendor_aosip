@@ -121,3 +121,6 @@ include vendor/aosip/config/version.mk
 
 # Customization
 include vendor/google-customization/config.mk
+
+# Pixel Style
+include vendor/pixelstyle/config.mk
